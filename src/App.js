@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import Header from './Header'
 
-function App() {
+export default function App() {
+  const [state, setState] = useState("Pooja")
+  const [age, setAge] = useState("20")
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
+      <Header name={'Nandini'}
+      age={30}
+      />
+  
+    Name: {state}
+     <br/>
+    Age: {age}
 
-export default App;
+    <br/>
+    <br/>
+    <br/>
+      <button onClick={()=>{setState('Nandini')}}>
+        Set Name
+      </button>
+      
+      
+      <button onClick={()=>{setAge('30')}}>
+        Set Age
+      </button>
+    </div>
+  )
+}
