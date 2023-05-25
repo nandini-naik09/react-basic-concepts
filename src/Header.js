@@ -2,12 +2,13 @@ import React from 'react'
 
 export default function Header({name, age}) {
   return (
-    <div>
-      <h1>Hello {name} ,
-      Your age is {age}</h1>
-
+   
+      <center>
+      <h1>Welcome</h1> 
+      <h4> Your name is {name}</h4>
+      <h4>Your age is {age}</h4>
+      </center>
       
-      
-    </div>
+   
   )
 }

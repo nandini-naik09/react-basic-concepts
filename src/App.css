@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+.outer-div{
+  margin-top: 40px;
+  background: palegreen;
+  height: 400px;
+  width: 300px;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+
+.inner-div
+{
+  background: skyblue;
+  color: blueviolet;
+  height: 200px;
+  width: 200px;
+  border-radius: 5%;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.btn
+{
+  padding: 5px 5px;
+  margin:2px 2px;
+  background:cadetblue;
+  color: azure;
+}
+
+.btn:hover{
+  background: azure;
+  color: grey;
+}
+
+body{
+  background: black;
+}
