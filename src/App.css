@@ -40,7 +40,7 @@
 
 .outer-div{
   margin-top: 40px;
-  background: palegreen;
+  background: skyblue;
   height: 400px;
   width: 300px;
   border-radius: 5%;
@@ -50,7 +50,7 @@
 
 .inner-div
 {
-  background: skyblue;
+  background: beige;
   color: blueviolet;
   height: 200px;
   width: 200px;
@@ -73,5 +73,5 @@
 }
 
 body{
-  background: black;
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('download (1).png');
 }
