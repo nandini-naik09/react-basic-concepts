@@ -4,12 +4,12 @@ import "./App.css";
 
 export default function App() {
   const [state, setState] = useState("Pooja");
-  const [age, setAge] = useState("20");
+  const [age, setAge] = useState("15");
 
   return (
     <center>
       <div className="outer-div">
-        <Header name={"Nandini"} age={30} />
+        <Header name={"Nandini"} age={20} />
       
       <div className="inner-div">
         <p>Name: {state}</p>
@@ -28,7 +28,7 @@ export default function App() {
         <button
           className="btn"
           onClick={() => {
-            setAge("30");
+            setAge("20");
           }}
         >
           Set Age

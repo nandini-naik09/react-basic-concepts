@@ -39,6 +39,7 @@
 
 
 .outer-div{
+  float:none;
   margin-top: 40px;
   background: skyblue;
   height: 400px;
@@ -52,11 +53,13 @@
 {
   background: beige;
   color: blueviolet;
-  height: 200px;
+  height: 180px;
   width: 200px;
   border-radius: 5%;
-  padding: 10px;
+  padding-top: 30px ;
   margin-top: 30px;
+  font-family:'Times New Roman', Times, serif;
+ 
 }
 
 .btn
@@ -74,4 +77,12 @@
 
 body{
   background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('download (1).png');
+}
+
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
