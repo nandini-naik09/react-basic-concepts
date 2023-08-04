@@ -1,39 +1,23 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import "./App.css";
+import Modify from "./Modify";
 
 export default function App() {
-  const [state, setState] = useState("Pooja");
+  const [Name, setName] = useState("Pooja");
   const [age, setAge] = useState("15");
 
   return (
     <center>
       <div className="outer-div">
-        <Header name={"Nandini"} age={20} />
-      
-      <div className="inner-div">
-        <p>Name: {state}</p>
+        <Header name={Name} age={age} setName={setName} />
 
-        <p> Age: {age}</p>
+        <div className="inner-div">
+          <p>Name: {Name}</p>
+          <p> Age: {age}</p>
 
-        <button
-          className="btn"
-          onClick={() => {
-            setState("Nandini");
-          }}
-        >
-          Set Name
-        </button>
-
-        <button
-          className="btn"
-          onClick={() => {
-            setAge("20");
-          }}
-        >
-          Set Age
-        </button>
-      </div>
+        </div>
+        <Modify name={Name} age={age} setName={setName} setAge={setAge} />
       </div>
     </center>
   );
