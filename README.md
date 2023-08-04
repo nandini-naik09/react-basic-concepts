@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+![image](https://github.com/nandini-naik09/react-basic-concepts/assets/133530727/e703a89c-2133-4e8b-862d-358786cd784d)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
